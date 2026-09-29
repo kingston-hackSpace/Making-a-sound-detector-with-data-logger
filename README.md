@@ -13,7 +13,7 @@ Once the device is powered, the Arduino will connect to the SD card and start lo
 - RTC clock module [more detail here](https://github.com/kingston-hackSpace/RTC_Clock-Module)
 - Spark fun Sound detector
 
-Assemble the equipment as shown in the fritzing file. Connect the device via a serial connection, you can check for progress of the data logging.
+Assemble the equipment as shown in the fritzing file [here](https://github.com/kingston-hackSpace/Making-a-sound-detector-with-data-logger/blob/main/sound_detector_data_logger_bb.png). Connect the device via a serial connection, you can check for progress of the data logging.
 
 ----
 ### Upload the code and libraries
