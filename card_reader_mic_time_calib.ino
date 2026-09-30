@@ -26,7 +26,7 @@ void setup(){
   Serial.begin(9600); 
   Wire.begin();
 
-  pinMode(11, OUTPUT);
+  pinMode(7, OUTPUT);
   pinMode(envelopePin,INPUT);
 
     // Initialise RTC
