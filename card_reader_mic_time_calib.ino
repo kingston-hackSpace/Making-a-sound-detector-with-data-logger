@@ -71,9 +71,9 @@ void loop()
   myFile = SD.open("DATALOG.CSV", FILE_WRITE);
   if (myFile) {
     myFile.print(dateBuffer);
-    myFile.print(",");
+    myFile.print("  ,  ");
     myFile.print(timeBuffer);
-    myFile.print(",");
+    myFile.print("  ,  ");
     myFile.println(h, 1);
     myFile.close();
 } else {
