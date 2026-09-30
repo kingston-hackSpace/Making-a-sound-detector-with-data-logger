@@ -14,18 +14,16 @@ SDCARD MODULE CS to pin 10  (pin 53 for Arduino MEGA)
 #include <RTClib.h>
 #include <SD.h>
 #include <SPI.h>
-#include "DHT.h"
 
 #define envelopePin A0 //analog pin
+#define CSPIN 10
 
-DHT dht(DHTPIN, DHTTYPE); // create dht object of class DHT
 RTC_DS3231 rtc; // create rtc object of class RTC_DS3231
  
 File myFile;
  
 void setup(){
   Serial.begin(9600); 
-  dht.begin();
   Wire.begin();
 
   pinMode(10, OUTPUT);
@@ -50,10 +48,10 @@ void setup(){
   Serial.println("SD card initialised.");
 
   // Create / open log file
-  dataFile = SD.open("DATALOG.CSV", FILE_WRITE);
-  if (dataFile) {
-    dataFile.println("Date,Time,data_reading");
-    dataFile.close();
+  myFile = SD.open("DATALOG.CSV", FILE_WRITE);
+  if (myFile) {
+    myFile.println("Date,Time,data_reading");
+    myFile.close();
   }
 }
  
