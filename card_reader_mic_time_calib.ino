@@ -26,7 +26,7 @@ void setup(){
   Serial.begin(9600); 
   Wire.begin();
 
-  pinMode(10, OUTPUT);
+  pinMode(11, OUTPUT);
   pinMode(envelopePin,INPUT);
 
     // Initialise RTC
@@ -68,7 +68,7 @@ void loop()
   sprintf(timeBuffer, "%02d:%02d:%02d", now.hour(), now.minute(), now.second());
 
   // Write to SD card
-  dataFile = SD.open("DATALOG.CSV", FILE_WRITE);
+  myFile = SD.open("DATALOG.CSV", FILE_WRITE);
   if (myFile) {
     myFile.print(dateBuffer);
     myFile.print(",");
