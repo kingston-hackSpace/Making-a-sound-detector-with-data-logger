@@ -60,7 +60,8 @@ void loop()
   DateTime now = rtc.now();
 
   float h = analogRead(envelopePin);//raw data from the analog pin
-
+  Serial.println(h);
+  
   // Format date and time
   char dateBuffer[12];
   sprintf(dateBuffer, "%02d/%02d/%04d", now.day(), now.month(), now.year());
