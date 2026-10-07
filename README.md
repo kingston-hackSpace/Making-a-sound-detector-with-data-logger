@@ -1,17 +1,27 @@
-# Making-a-sound-detector-with-data-logger
-Using a sound detector with an Arduino UNO and logging data to SD card module
+# Making a Sound Detector with Data Logger
+
+----
+## DESCRIPTION
+
+Using a Sound Detector with an Arduino UNO and logging data to SD card module
 
 Once the device is powered, the Arduino will connect to the SD card and start logging sound intensity from the detector.
 
 ----
-# You will need...
+## HARDWARE
 
 - Arduino UNO
-- jump leads
-- bread board
-- SD card module (with SD card and reader) [more detail here](https://github.com/kingston-hackSpace/SDCard)
+
+- Sparkfun Sound detector
+
+- SD-card module (with SD-card and reader) [more detail here](https://github.com/kingston-hackSpace/SDCard)
+  
 - RTC clock module [more detail here](https://github.com/kingston-hackSpace/RTC_Clock-Module)
-- Spark fun Sound detector
+
+- jumper wires
+
+----
+## WIRING
 
 Assemble the equipment as shown in the fritzing file [here](https://github.com/kingston-hackSpace/Making-a-sound-detector-with-data-logger/blob/main/sound_detector_data_logger_bb.png). Connect the device via a serial connection, you can check for progress of the data logging.
 
