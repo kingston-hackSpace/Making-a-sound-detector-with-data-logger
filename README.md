@@ -88,7 +88,7 @@ If using an Arduino Mega, re-wire as follows:
 
 - Insert the micro-SD card into your SD card module
 
-- Upload [this code](https://github.com/kingston-hackSpace/Making-a-sound-detector-with-data-logger/blob/main/card_reader_mic_time_calib.ino) to your Arduino board.
+- Upload [this code](https://github.com/kingston-hackSpace/Making-a-sound-detector-with-data-logger/blob/main/SoundDetect_simpleLog.ino) to your Arduino board.
 
 - Open the Serial Monitor to visualize readings at real-time. 
 
