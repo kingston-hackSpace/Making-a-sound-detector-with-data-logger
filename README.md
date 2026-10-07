@@ -73,8 +73,13 @@ Read more about the Sparkfun Sound Detector [here](https://github.com/kingston-h
 ----
 ### CODE and INSTRUCTIONS
 
-----
-### UNDERSTANDING THE CODE
+- If starting from scratch, begin by erasing any files that you micro-SD card may have.
+
+- Insert the micro-SD card into your SD card module
+
+- Upload [this code](https://github.com/kingston-hackSpace/Making-a-sound-detector-with-data-logger/blob/main/card_reader_mic_time_calib.ino) to your Arduino board.
+
+- Open the Serial Monitor to visualize readings at real-time. 
 
 ----
 ### TROUBLESHOOTING
