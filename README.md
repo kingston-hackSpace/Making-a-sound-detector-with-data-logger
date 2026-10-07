@@ -102,7 +102,7 @@ Log readings to separate files: everytime you re-plug the Arduino board, new dat
 
 Add a push button to start/stop data-logging.
 
-
+- Upload [this code (tutorial-2)](https://github.com/kingston-hackSpace/Making-a-sound-detector-with-data-logger/blob/main/SoundDetect_separateFiles.ino) to your Arduino board.
 
 ----
 ### TROUBLESHOOTING
