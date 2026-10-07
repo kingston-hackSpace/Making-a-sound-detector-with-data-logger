@@ -12,9 +12,9 @@ Once the device is powered, the Arduino will connect to the SD card and start lo
 
 The SparkFun Sound Detector is a microphone-based sensor designed to detect the presence and intensity of sound in its surroundings.
 
-Note : It does NOT provide decibel readings, so it’s not suitable for precise noise level measurements.
+*Note : It does NOT provide decibel readings, so it’s not suitable for precise noise level measurements.*
 
-Note : It’s NOT a sound recorder— It only measures sound intensity (volume) and provides a corresponding signal.
+*Note : It’s NOT a sound recorder— It only measures sound intensity (volume) and provides a corresponding signal.*
 
 Read more about the Sparkfun Sound Detector [here](https://github.com/kingston-hackSpace/Sound-Detector/blob/main/README.md)
 
