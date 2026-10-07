@@ -1,4 +1,4 @@
-# Making a Sound Detector with Data Logger
+# Sound Detector with Data Logger
 
 ----
 ## TUTORIAL DESCRIPTION
