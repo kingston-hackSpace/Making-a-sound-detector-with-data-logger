@@ -32,12 +32,14 @@ Read more about the Sparkfun Sound Detector [here](https://github.com/kingston-h
 - jumper wires
 
 ----
-## WIRING
+## WIRING : ARDUINO UNO
 
 <img src="sound_detector_data_logger_bb.png" width=600>
+
 *Note: Click on the image to expand 
 
-Wire as follos if using an Arduino Mega:
+---
+## WIRING : ARDUINO MEGA
 
 - SDCARD MODULE 5V pin to the 5V pin on the Arduino UNO
 
