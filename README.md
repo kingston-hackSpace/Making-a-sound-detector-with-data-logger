@@ -73,13 +73,13 @@ If using an Arduino Mega, re-wire as follows:
 
 - You will see a new panel at the left side of your Arduino IDE
 
-- Using the serach boax, search and install the following libraries.
+- Using the search box, search and install the following libraries:
   
-  - RTClib by Adafruit
+  - **RTClib** by Adafruit
 
-  - SD by Arduino, Sparkfun
+  - **SD** by Arduino, Sparkfun
 
-- Done! You don't need to repeat this step anymore. 
+- Done! You don't need to repeat this again. 
 
 ----
 ### CODE and INSTRUCTIONS
