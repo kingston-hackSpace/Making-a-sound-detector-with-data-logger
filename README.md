@@ -7,6 +7,8 @@ Using a Sound Detector with an Arduino UNO and logging data to SD card module
 
 Once the device is powered, the Arduino will connect to the SD card and start logging sound intensity from the detector.
 
+Read more about the Sparkfun Sound Detector [here](https://github.com/kingston-hackSpace/Sound-Detector/blob/main/README.md)
+
 ----
 ## HARDWARE
 
