@@ -82,7 +82,7 @@ If using an Arduino Mega, re-wire as follows:
 - Done! You don't need to repeat this again. 
 
 ----
-### CODE and INSTRUCTIONS
+### TUTORIAL 1
 
 - If starting from scratch, begin by erasing any files that you micro-SD card may have.
 
@@ -90,7 +90,19 @@ If using an Arduino Mega, re-wire as follows:
 
 - Upload [this code](https://github.com/kingston-hackSpace/Making-a-sound-detector-with-data-logger/blob/main/SoundDetect_simpleLog.ino) to your Arduino board.
 
-- Open the Serial Monitor to visualize readings at real-time. 
+- Open the Serial Monitor to visualize readings at real-time.
+
+----
+### TUTORIAL 2
+
+Log readings to separate files: everytime you re-plug the Arduino board, new data loggins will be recorded on a new .CSV file
+
+----
+### TUTORIAL 3
+
+Add a push button to start/stop data-logging.
+
+
 
 ----
 ### TROUBLESHOOTING
