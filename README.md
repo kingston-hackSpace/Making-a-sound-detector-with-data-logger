@@ -37,6 +37,20 @@ Read more about the Sparkfun Sound Detector [here](https://github.com/kingston-h
 <img src="sound_detector_data_logger_bb.png" width=600>
 *Note: Click on the image to expand 
 
+Wire as follos if using an Arduino Mega:
+
+- SDCARD MODULE 5V pin to the 5V pin on the Arduino UNO
+
+- SDCARD MODULE GND pin to the GND pin on the Arduino UNO
+
+- SDCARD MODULE CLK to pin 13  (pin 52 for Arduino MEGA)
+
+- SDCARD MODULE DO to pin 12 (pin 50 for Arduino MEGA)
+
+- SDCARD MODULE DI to pin 11  (pin 51 for Arduino MEGA)
+
+- SDCARD MODULE CS to pin 10  (pin 53 for Arduino MEGA)
+
 ----
 ### INSTALLING LIBRARIES
 
@@ -58,6 +72,10 @@ go to Sketch->Include library->manage libraries search for each one to see if th
 
 ----
 ### TROUBLESHOOTING
+
+If your date is not updates try the following...
+
+- replace the 3V battery cell in used by the RCT module, then upload the code again. 
 
 If the SD card is not reading try the following...
 
