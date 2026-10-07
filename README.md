@@ -3,9 +3,18 @@
 ----
 ## TUTORIAL DESCRIPTION
 
-Using a Sound Detector with an Arduino UNO and logging data to SD-card module, tracking dates via an RTC module(clock). 
+Track signals from a Sparkfun Sound Detector (envelop signals) using an Arduino UNO. 
 
-Once the device is powered, the Arduino will connect to the SD card and start logging sound intensity from the detector.
+Log this data into an micro-SD card using a SD-card module, and track time and dates via an RTC module(clock). 
+
+HOW IT WORKS:
+
+**Tutorial 1:** 
+As soon as the Arduino is powered, the data logging starts, adding new lines to the same file if re-plugged. 
+
+**Tutorial 2:** Log readings to separate files.
+
+**Tutorial 3:** Add a push button to start/stop data-logging.
 
 ----
 ## SPARKFUN SOUND DETECTOR
@@ -40,6 +49,8 @@ Read more about the Sparkfun Sound Detector [here](https://github.com/kingston-h
 
 ---
 ## WIRING : ARDUINO MEGA
+
+If using an Arduino Mega, re-wire as follows:
 
 - SDCARD MODULE 5V pin to the 5V pin on the Arduino UNO
 
