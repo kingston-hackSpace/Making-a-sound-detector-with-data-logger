@@ -58,16 +58,20 @@ Read more about the Sparkfun Sound Detector [here](https://github.com/kingston-h
 
 - Open Arduino IDE
 
-- 
+- At the top of your Arduino IDE, go to **Sketch > Include library > Manage libraries...**
 
-- wire
-- RTClib
-- SD
-- SPI
+- You will see a new panel at the left side of your Arduino IDE
 
-go to Sketch->Include library->manage libraries search for each one to see if they're installed
+- Using the serach boax, search and install the following libraries.
+  
+  - RTClib by Adafruit
 
-- You only need to do this step once
+  - SD by Arduino, Sparkfun
+
+- Done! You don't need to repeat this step anymore. 
+
+----
+### CODE and INSTRUCTIONS
 
 ----
 ### UNDERSTANDING THE CODE
